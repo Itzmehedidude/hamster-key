@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор Ключей Hamster Kombat</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="main-container">
+        <section class="language-selector" style="visibility: hidden;">
+            <select id="languageSelect">
+                
+                <option value="en" >Bangla</option>
+                
+            </select>
+        </section>
+        <section class="container">
+            <h1>Генератор Ключей Hamster Kombat</h1>
+            <label for="gameSelect" id="gameSelectLabel">Select Game name</label>
+            <select id="gameSelect">
+                <option value="ChainCube2048">Chain Cube 2048</option>
+                <option value="TrainMiner">Train Miner</option>
+                <option value="MergeAway">Merge Away</option>
+                <option value="TwerkRace">Twerk Race</option>
+                <option value="Polysphere">Polysphere</option>
+                <option value="MowandTrim">Mow and Trim</option>
+                <option value="CafeDash">Cafe Dash</option>
+                <option value="GangsWars">Gangs Wars</option>
+                <option value="Zoopolis">Zoopolis</option>
+            </select>
+            <label for="keyCountSelect" id="keyCountLabel">Выберите количество ключей для генерации:</label>
+            <select id="keyCountSelect">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <button id="startBtn" class="button">Сгенерировать ключи</button>
+            <div id="progressContainer" class="progress-container hidden">
+                <div id="progressBar" class="progress-bar"></div>
+                <span id="progressText" class="progress-text">0%</span>
+            </div>
+            <div id="keyContainer" class="key-container hidden">
+                <h2 id="generatedKeysTitle">Сгенерированные ключи:</h2>
+                <button id="copyAllBtn" class="button hidden">Скопировать все ключи</button>
+                <div id="keysList" class="keys-list"></div>
+            </div>
+        </section>
+        <button id="creatorChannelBtn" class="button footer-button">Powered by MehediI</button>
+        <button id="creatorChannelBt" class="button footer-button">Join Telegram</button>
+    </main>
+</body>
+</html>
