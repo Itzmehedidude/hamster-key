@@ -37,16 +37,16 @@ const gamePromoConfigs = {
         attemptsNumber: 20
     },
     CafeDash: {
-        appToken: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
-        promoId: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
-        eventsDelay: 23000,
-        attemptsNumber: 16
+        appToken: '112887b0-a8af-4eb2-ac63-d82df78283d9',
+        promoId: '112887b0-a8af-4eb2-ac63-d82df78283d9',
+        eventsDelay: 30000,
+        attemptsNumber: 20
     },
     GangsWars: {
-        appToken: 'b6de60a0-e030-48bb-a551-548372493523',
-        promoId: 'c7821fa7-6632-482c-9635-2bd5798585f9',
-        eventsDelay: 40000,
-        attemptsNumber: 23
+        appToken: 'e68b39d2-4880-4a31-b3aa-0393e7df10c7',
+        promoId: 'e68b39d2-4880-4a31-b3aa-0393e7df10c7',
+        eventsDelay: 20000,
+        attemptsNumber: 20
     }, 
     Zoopolis: {
         appToken: 'b2436c89-e0aa-4aed-8046-9b0515e1c46b',
